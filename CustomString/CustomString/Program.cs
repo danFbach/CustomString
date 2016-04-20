@@ -11,9 +11,24 @@ namespace CustomString
         static void Main(string[] args)
         {
             SystemString systemstring = new SystemString();
-            systemstring.Length();
-            ///systemstring.Insert("cacaca", 2);
+            ///systemstring.Length();
+            systemstring.Insert("cacaca", 2);
             ///systemstring.Remove(4, 3);
+
+            //SystemArrayString systemarraystring = new SystemArrayString();
+            ///systemarraystring.Insert("spughettos", 4);
+            ///systemarraystring.Length();
+            ///systemarraystring.Remove(2, 3);
+
+            //SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
+            ///systemlinkedliststring.Insert("spughettos", 4);
+            ///systemlinkedliststring.Length();
+            ///systemlinkedliststring.Remove(2, 3);
+
+            //CustomLinkedListString customLinkedListString = new CustomLinkedListString();
+            ///customLinkedListString.Insert("spughettos", 4);
+            ///customLinkedListString.Length();
+            ///customLinkedListString.Remove(2, 3);
         }
     }
 }

@@ -14,22 +14,21 @@ namespace CustomString
         public void Insert(string stringToInsert, int index)
         {
             string newString = "";
-            for (int i = 0; i < (index + stringToInsert.Count()); i++)
+            for (int i = 0; i < (baseString.Count()); i++)
             {
                 if (i.Equals(index))
                 {
                     newString += stringToInsert;
+                    newString += baseString[i];
                 }
                 else
                 {
                     newString += baseString[i];
                 }
-
             }
             Console.WriteLine(newString);
             Console.ReadLine();
         }
-
         public int Length()
         {
            int counter = 0;
@@ -41,7 +40,6 @@ namespace CustomString
             Console.ReadLine();
             return counter;
         }
-
         public void Remove(int startIndex, int numCharsToRemove)
         {
             string newString = "";

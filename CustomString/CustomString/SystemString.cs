@@ -8,7 +8,7 @@ namespace CustomString
 {
     public class SystemString : ICustomString
     {
-        public string baseString = "tardicaca";        
+        public string baseString = "tardicaca";
         public void Insert(string stringToInsert, int index)
         {
             string newString = "";

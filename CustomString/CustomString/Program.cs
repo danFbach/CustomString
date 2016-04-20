@@ -10,15 +10,15 @@ namespace CustomString
     {
         static void Main(string[] args)
         {
-            SystemString systemstring = new SystemString();
+            //SystemString systemstring = new SystemString();
             ///systemstring.Length();
-            systemstring.Insert("cacaca", 2);
+            ///systemstring.Insert("cacaca", 2);
             ///systemstring.Remove(4, 3);
 
-            //SystemArrayString systemarraystring = new SystemArrayString();
-            ///systemarraystring.Insert("spughettos", 4);
+            SystemArrayString systemarraystring = new SystemArrayString();
+            ///systemarraystring.Insert("apples", 0);
             ///systemarraystring.Length();
-            ///systemarraystring.Remove(2, 3);
+            systemarraystring.Remove(2, 3);
 
             //SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
             ///systemlinkedliststring.Insert("spughettos", 4);

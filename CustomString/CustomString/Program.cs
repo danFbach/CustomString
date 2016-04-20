@@ -10,6 +10,10 @@ namespace CustomString
     {
         static void Main(string[] args)
         {
+            SystemString systemstring = new SystemString();
+            systemstring.Length();
+            ///systemstring.Insert("cacaca", 2);
+            ///systemstring.Remove(4, 3);
         }
     }
 }

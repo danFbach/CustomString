@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CustomString
 {
-    public class SystemArrayString : ICustomString
+    [SerializableAttribute]
+    [System.Runtime.InteropServices.ComVisibleAttribute(true)]
+    public class SortedList : ICustomString
     {
         public void Insert(string stringToInsert, int index)
         {
@@ -23,4 +25,5 @@ namespace CustomString
             throw new NotImplementedException();
         }
     }
+
 }

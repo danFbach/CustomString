@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace CustomString
 {
     public class CustomLinkedListString : ICustomString
     {
-        public void Insert(string stringToInsert)
+        public void Insert(string stringToInsert, int index)
         {
             throw new NotImplementedException();
         }

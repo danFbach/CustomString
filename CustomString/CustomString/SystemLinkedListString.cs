@@ -8,7 +8,7 @@ namespace CustomString
 {
     public class SystemLinkedListString : ICustomString
     {
-        public void Insert(string stringToInsert)
+        public void Insert(string stringToInsert, int index)
         {
             throw new NotImplementedException();
         }

@@ -8,19 +8,22 @@ namespace CustomString
 {
     public class SystemArrayString : ICustomString
     {
+        Char charArray[] = new Array[] { 'g', 'y', 'b' };
         public void Insert(string stringToInsert, int index)
         {
-            throw new NotImplementedException();
+            foreach()
+
         }
 
         public int Length()
         {
-            throw new NotImplementedException();
+            int number = 0;
+            return number;
         }
 
         public void Remove(int startIndex, int numCharsToRemove)
         {
-            throw new NotImplementedException();
+
         }
     }
 }

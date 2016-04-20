@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace CustomString
 {
     public class SystemString : ICustomString
     {
-        public string baseString = "tardicaca";
-        
+        public string baseString = "tardicaca";        
         public void Insert(string stringToInsert, int index)
         {
             string newString = "";
@@ -46,18 +44,15 @@ namespace CustomString
             for(int i = 0; i < baseString.Count(); i++)
             {
                 if (i >= startIndex && i < (startIndex + numCharsToRemove))
-                {                    
+                {
                 }
                 else
                 {
                     newString += baseString[i];
-                }                
+                }
             }
             Console.WriteLine(newString);
             Console.ReadLine();
         }
     }
 }
-
-
-

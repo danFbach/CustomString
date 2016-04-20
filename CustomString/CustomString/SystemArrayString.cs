@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomString
 {
-    class SystemArrayString
+    public class SystemArrayString : ICustomString
     {
     }
 }

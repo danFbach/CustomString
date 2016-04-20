@@ -15,10 +15,10 @@ namespace CustomString
             ///systemstring.Insert("cacaca", 2);
             ///systemstring.Remove(4, 3);
 
-            SystemArrayString systemarraystring = new SystemArrayString();
+            ///SystemArrayString systemarraystring = new SystemArrayString();
             ///systemarraystring.Insert("apples", 0);
             ///systemarraystring.Length();
-            systemarraystring.Remove(2, 3);
+            ///systemarraystring.Remove(2, 3);
 
             //SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
             ///systemlinkedliststring.Insert("spughettos", 4);

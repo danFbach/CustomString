@@ -25,7 +25,6 @@ namespace CustomString
                 }
             }
             Console.WriteLine(newString);
-            Console.ReadLine();
         }
         public int Length()
         {
@@ -35,7 +34,6 @@ namespace CustomString
                 counter++;
             }
             Console.WriteLine(counter);
-            Console.ReadLine();
             return counter;
         }
         public void Remove(int startIndex, int numCharsToRemove)
@@ -52,7 +50,6 @@ namespace CustomString
                 }
             }
             Console.WriteLine(newString);
-            Console.ReadLine();
         }
     }
 }

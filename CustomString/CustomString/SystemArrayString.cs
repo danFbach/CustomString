@@ -30,7 +30,6 @@ namespace CustomString
             {
                 Console.Write(letter);
             }
-            Console.ReadKey();
         }
 
         public int Length()
@@ -64,7 +63,6 @@ namespace CustomString
             {
                 Console.Write(letter);
             }
-            Console.ReadLine();
         }
     }
 }

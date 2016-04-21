@@ -20,8 +20,8 @@ namespace CustomString
             ///systemarraystring.Length();
             ///systemarraystring.Remove(2, 3);
 
-            //SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
-            ///systemlinkedliststring.Insert("spughettos", 4);
+            SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
+            systemlinkedliststring.Insert("spughettos", 2);
             ///systemlinkedliststring.Length();
             ///systemlinkedliststring.Remove(2, 3);
 
@@ -29,6 +29,7 @@ namespace CustomString
             ///customLinkedListString.Insert("spughettos", 4);
             ///customLinkedListString.Length();
             ///customLinkedListString.Remove(2, 3);
+            Console.ReadKey();
         }
     }
 }

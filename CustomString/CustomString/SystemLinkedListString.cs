@@ -66,15 +66,12 @@ namespace CustomString
         public int Length()
     {
         int number = 0;
-        //foreach(Char letter in linkedChars)
-        //{
-        //    number++;
-        //}
+        
         return number;
     }
     public void Remove(int startIndex, int numCharsToRemove)
     {
-
+        
     }
 }
 }

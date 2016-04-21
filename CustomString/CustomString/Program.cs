@@ -20,8 +20,8 @@ namespace CustomString
             ///systemarraystring.Length();
             ///systemarraystring.Remove(2, 3);
 
-            SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
-            systemlinkedliststring.Insert("spughettos", 2);
+            //SystemLinkedListString systemlinkedliststring = new SystemLinkedListString();
+            ///systemlinkedliststring.Insert("spughettos", 2);
             ///systemlinkedliststring.Length();
             ///systemlinkedliststring.Remove(2, 3);
 
